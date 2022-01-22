@@ -1,0 +1,104 @@
+Tmux Basics Default settings
+
+
+    $ tmux             // to open a tmux session
+
+    $ tmux attach      // to attach a previous opened tmux session
+    
+    
+
+==================================================================================
+
+                                PANES
+
+Horizontal Panes
+
+    prefix and then quickly type "  (prefix is ctrl + b )
+
+
+Vertical Panes 
+
+    prefix and then quickly type % ( prefix is ctrl + b )
+
+
+Switch Between Panes
+
+    prefix and then press arrow key (left,right,up or down)
+
+
+Zoom/Unzoom into a pane
+
+    prefix and then press z 
+
+
+==================================================================================
+
+                            WINDOWS
+
+
+Create a new window
+
+    prefix and then c
+
+
+Move to previous window
+
+    prefix and then p
+
+
+Move to next window 
+
+    prefix and then n
+
+To kill a window
+
+    prefix and then &
+
+Rename a window
+
+    prefix and ,
+
+
+
+==================================================================================
+
+                    CREATING AND SWITCHING BETWEEN SESSIONS
+
+
+
+Disconnect  a session
+
+    prefix and then d
+
+
+To attach to session
+
+    $ tmux attach
+
+
+To see all sessions
+
+    $ tmux list-sessions
+
+
+To attach to a particular tmux session
+
+    $ tmux attach -t <session id> // -t is for target
+
+
+Rename a session
+
+    prefix and $
+
+
+Create a new session and give a name 
+
+    $ tmux new -s <name of session>
+
+
+To see all sessions and overview of there content also
+
+    prefix and s
+
+==================================================================================
+
